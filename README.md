@@ -2,11 +2,11 @@
 
 ## Features
 
-➡ Modern UI\
+➡ Modern UI
 
-➡ Animations\
+➡ Animations
 
-➡ Fully Responsive\ 
+➡ Fully Responsive
 
 ➡ Dark Mode 
 
