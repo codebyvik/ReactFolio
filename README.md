@@ -237,7 +237,7 @@ To create own animation refer to [Framer Motion](https://www.framer.com/api/moti
 
 ## Technologies used
 
-➡ [React](https://reactjs.org/) 
+➡ [React](https://reactjs.org/) __
 ➡ [Styled Component](https://styled-components.com/docs) 
 ➡ [Framer Motion](https://www.framer.com/api/motion/) 
 ➡ [React intersection observer](https://github.com/researchgate/react-intersection-observer) 
