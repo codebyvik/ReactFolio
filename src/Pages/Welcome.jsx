@@ -45,7 +45,7 @@ const StyledWelcome = styled(Div)`
     .a-btn {
       font-size: 1rem;
       font-weight: bold;
-      border: 2px solid ${Colors.white};
+      border: 2px solid ${Colors.mainColor};
       padding: 0.5rem 1rem;
       transition: 0.5s ease;
       &:hover {
