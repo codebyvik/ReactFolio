@@ -145,18 +145,18 @@ export const ProjectData = () => {
 ### change details
 
 ➡ delete Project0,Project1,Project2 from src/assets/.\
-➡ place your image into assets folder\
-➡ import the image into ProjectData.js\
-➡ change DisplayImage to your image\
+➡ place your image into assets folder.\
+➡ import the image into ProjectData.js.\
+➡ change DisplayImage to your image.
 
 ```js
  DisplayImage: YourImportedPic,
 ```
 
-➡ Change id , title , Description\ 
+➡ Change id , title , Description\
 ➡ import screenshots of projects and place inside screenshots array\
 **NOTE**: dont change array into object\
-➡ paste your github link and live url\
+➡ paste your github link and live url
 
 ### Add more projects
 
@@ -181,7 +181,7 @@ Add more objects inside ProjectData
 
 # Contact
 
-This is a dummy contact form.\ 
+This is a dummy contact form.\
 you can make it work using libraries like [Nodemailer](https://nodemailer.com/about/);
 
 # Footer Section
