@@ -14,7 +14,7 @@
 
 ### Prerequisites
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.\
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
 
 ```
 node@v14.17.0 or higher
@@ -57,7 +57,7 @@ Once your server has started, go to this url `http://localhost:3000/` and you wi
 
 ### Change title
 
-➡ Navigate to public/index.html \
+➡ Navigate to public/index.html 
 
 ```html
 <title>Portfolio Project</title>
@@ -65,11 +65,11 @@ Once your server has started, go to this url `http://localhost:3000/` and you wi
 
 ### Change Icon
 
-➡ Copy the icon in public/ folder \
-➡ change the href attribute to your icon \
+➡ Copy the icon in public/ folder 
+➡ change the href attribute to your icon 
 OR
 
-➡ Save your svg as icon.svg and replace the default one \
+➡ Save your svg as icon.svg and replace the default one 
 
 ```html
 <link rel="icon" href="./icon.svg" type="image/x-icon" />
@@ -81,7 +81,7 @@ directory :- src/Pages/Welcome.jsx
 
 ### change info
 
-Change the text and insert your name inside <span></span> . \
+Change the text and insert your name inside <span></span> . 
 
 ```js
 <motion.h1 variants={fadeLeftAnim}>
@@ -93,8 +93,8 @@ Change the text and insert your name inside <span></span> . \
 
 ### change picture
 
-➡ rename your pic to Pic1.jpg and replace Pic1 in /src/assets/ . \
- \
+➡ rename your pic to Pic1.jpg and replace Pic1 in /src/assets/ . 
+ 
 **NOTE**: if the image extension is any other then jpg then change the extension in src/Pages/About.jsx
 
 ```js
@@ -144,19 +144,19 @@ export const ProjectData = () => {
 
 ### change details
 
-➡ delete Project0,Project1,Project2 from src/assets/ . \
-➡ place your image into assets folder \
-➡ import the image into ProjectData.js \
-➡ change DisplayImage to your image \
+➡ delete Project0,Project1,Project2 from src/assets/ . 
+➡ place your image into assets folder 
+➡ import the image into ProjectData.js 
+➡ change DisplayImage to your image 
 
 ```js
  DisplayImage: YourImportedPic,
 ```
 
-➡ Change id , title , Description \
-➡ import screenshots of projects and place inside screenshots array \
-**NOTE**: dont change array into object \
-➡ paste your github link and live url \
+➡ Change id , title , Description 
+➡ import screenshots of projects and place inside screenshots array 
+**NOTE**: dont change array into object 
+➡ paste your github link and live url 
 
 ### Add more projects
 
@@ -181,14 +181,14 @@ Add more objects inside ProjectData
 
 # Contact
 
-This is a dummy contact form . \
+This is a dummy contact form . 
 you can make it work using libraries like [Nodemailer](https://nodemailer.com/about/);
 
 # Footer Section
 
-➡ Put your social media link on each `<a>` links. \
-➡ If you have more social-media accounts, see [Font Awesome Icons](https://fontawesome.com/v5.15/icons) to put the corresponding additional social icon \
-➡ You can delete or add as many `a` links your want. \
+➡ Put your social media link on each `<a>` links. 
+➡ If you have more social-media accounts, see [Font Awesome Icons](https://fontawesome.com/v5.15/icons) to put the corresponding additional social icon 
+➡ You can delete or add as many `a` links your want. 
 
 ```js
 <Icons>
@@ -215,11 +215,11 @@ you can make it work using libraries like [Nodemailer](https://nodemailer.com/ab
 
 ## STYLES
 
-Change the values of the below \
+Change the values of the below 
 
-➡ mainColor is the Bondi Blue \
-➡ secondaryColor is the Ebony Clay \
-➡ darkbg is for darkmode \
+➡ mainColor is the Bondi Blue.
+➡ secondaryColor is the Ebony Clay .
+➡ darkbg is for darkmode .
 
 ```js
 export const Colors = {
@@ -231,16 +231,16 @@ export const Colors = {
 
 ## Animations
 
-Animation.js containes all animations \
+Animation.js containes all animations 
 
 To create own animation refer to [Framer Motion](https://www.framer.com/api/motion/)
 
 ## Technologies used
 
-➡ [React](https://reactjs.org/) \
-➡ [Styled Component](https://styled-components.com/docs) \
-➡ [Framer Motion](https://www.framer.com/api/motion/) \
-➡ [React intersection observer](https://github.com/researchgate/react-intersection-observer) \
+➡ [React](https://reactjs.org/) 
+➡ [Styled Component](https://styled-components.com/docs) 
+➡ [Framer Motion](https://www.framer.com/api/motion/) 
+➡ [React intersection observer](https://github.com/researchgate/react-intersection-observer) 
 
 ## Authors
 
