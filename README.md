@@ -1,4 +1,4 @@
-# Portfolio Template
+# Reactfolio Template
 
 ## Features
 
@@ -32,10 +32,10 @@ From your command line, first clone the Project:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/codebyvik/Portfolio.git
+$ git clone https://github.com/codebyvik/ReactFolio.git
 
 # Go into the repository
-$ cd Portfolio
+$ cd ReactFolio
 
 # Remove current origin repository
 $ git remote remove origin
@@ -62,7 +62,7 @@ Once your server has started, go to this url `http://localhost:3000/` and you wi
 ➡ Navigate to public/index.html
 
 ```html
-<title>Portfolio Project</title>
+<title>ReactFolio | Webdev</title>
 ```
 
 ### Change Icon
