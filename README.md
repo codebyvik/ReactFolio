@@ -57,7 +57,7 @@ Once your server has started, go to this url `http://localhost:3000/` and you wi
 
 ### Change title
 
-1.Navigate to public/index.html \
+➡ Navigate to public/index.html \
 
 ```html
 <title>Portfolio Project</title>
@@ -65,11 +65,11 @@ Once your server has started, go to this url `http://localhost:3000/` and you wi
 
 ### Change Icon
 
-1.Copy the icon in public/ folder \
-2.change the href attribute to your icon \
+➡ Copy the icon in public/ folder \
+➡ change the href attribute to your icon \
 OR
 
-1. Save your svg as icon.svg and replace the default one \
+➡ Save your svg as icon.svg and replace the default one \
 
 ```html
 <link rel="icon" href="./icon.svg" type="image/x-icon" />
@@ -93,7 +93,7 @@ Change the text and insert your name inside <span></span> . \
 
 ### change picture
 
-1.rename your pic to Pic1.jpg and replace Pic1 in /src/assets/ . \
+➡ rename your pic to Pic1.jpg and replace Pic1 in /src/assets/ . \
  \
 **NOTE**: if the image extension is any other then jpg then change the extension in src/Pages/About.jsx
 
@@ -103,7 +103,7 @@ import Pic1 from "../assets/Pic1.jpg";
 
 ### About me info
 
-1. write about yourself between <motion.p></motion.p> tags.
+➡ write about yourself between <motion.p></motion.p> tags.
 
 ```js
 <motion.p variants={fadeRightAnim}>
@@ -144,19 +144,19 @@ export const ProjectData = () => {
 
 ### change details
 
-1. delete Project0,Project1,Project2 from src/assets/ . \
-2. place your image into assets folder \
-3. import the image into ProjectData.js \
-4. change DisplayImage to your image \
+➡ delete Project0,Project1,Project2 from src/assets/ . \
+➡ place your image into assets folder \
+➡ import the image into ProjectData.js \
+➡ change DisplayImage to your image \
 
 ```js
  DisplayImage: YourImportedPic,
 ```
 
-5.Change id , title , Description \
-6.import screenshots of projects and place inside screenshots array \
+➡ Change id , title , Description \
+➡ import screenshots of projects and place inside screenshots array \
 **NOTE**: dont change array into object \
-7.paste your github link and live url \
+➡ paste your github link and live url \
 
 ### Add more projects
 
@@ -186,9 +186,9 @@ you can make it work using libraries like [Nodemailer](https://nodemailer.com/ab
 
 # Footer Section
 
-- Put your social media link on each `<a>` links. \
-- If you have more social-media accounts, see [Font Awesome Icons](https://fontawesome.com/v5.15/icons) to put the corresponding additional social icon \
-- You can delete or add as many `a` links your want. \
+➡ Put your social media link on each `<a>` links. \
+➡ If you have more social-media accounts, see [Font Awesome Icons](https://fontawesome.com/v5.15/icons) to put the corresponding additional social icon \
+➡ You can delete or add as many `a` links your want. \
 
 ```js
 <Icons>
@@ -217,9 +217,9 @@ you can make it work using libraries like [Nodemailer](https://nodemailer.com/ab
 
 Change the values of the below \
 
-mainColor is the Bondi Blue \
-secondaryColor is the Ebony Clay \
-darkbg is for darkmode \
+➡ mainColor is the Bondi Blue \
+➡ secondaryColor is the Ebony Clay \
+➡ darkbg is for darkmode \
 
 ```js
 export const Colors = {
@@ -237,10 +237,10 @@ To create own animation refer to [Framer Motion](https://www.framer.com/api/moti
 
 ## Technologies used 🛠️
 
-- [React](https://reactjs.org/) \
-- [Styled Component](https://styled-components.com/docs) \
-- [Framer Motion](https://www.framer.com/api/motion/) \
-- [React intersection observer](https://github.com/researchgate/react-intersection-observer) \
+➡ [React](https://reactjs.org/) \
+➡ [Styled Component](https://styled-components.com/docs) \
+➡ [Framer Motion](https://www.framer.com/api/motion/) \
+➡ [React intersection observer](https://github.com/researchgate/react-intersection-observer) \
 
 ## Authors
 
