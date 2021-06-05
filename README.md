@@ -8,7 +8,7 @@
 
 ➡ Fully Responsive
 
-➡ Dark Mode 
+➡ Dark Mode
 
 # Getting Started
 
@@ -57,7 +57,7 @@ Once your server has started, go to this url `http://localhost:3000/` and you wi
 
 ### Change title
 
-➡ Navigate to public/index.html 
+➡ Navigate to public/index.html
 
 ```html
 <title>Portfolio Project</title>
@@ -66,10 +66,10 @@ Once your server has started, go to this url `http://localhost:3000/` and you wi
 ### Change Icon
 
 ➡ Copy the icon in public/ folder\
-➡ change the href attribute to your icon 
+➡ change the href attribute to your icon
 OR
 
-➡ Save your svg as icon.svg and replace the default one 
+➡ Save your svg as icon.svg and replace the default one
 
 ```html
 <link rel="icon" href="./icon.svg" type="image/x-icon" />
@@ -81,7 +81,7 @@ directory :- src/Pages/Welcome.jsx
 
 ### change info
 
-Change the text and insert your name inside <span></span> . 
+Change the text and insert your name inside <span></span> .
 
 ```js
 <motion.h1 variants={fadeLeftAnim}>
@@ -93,8 +93,8 @@ Change the text and insert your name inside <span></span> .
 
 ### change picture
 
-➡ rename your pic to Pic1.jpg and replace Pic1 in /src/assets/ . 
- 
+➡ rename your pic to Pic1.jpg and replace Pic1 in /src/assets/ .
+
 **NOTE**: if the image extension is any other then jpg then change the extension in src/Pages/About.jsx
 
 ```js
@@ -215,7 +215,7 @@ you can make it work using libraries like [Nodemailer](https://nodemailer.com/ab
 
 ## STYLES
 
-Change the values of the below 
+Change the values of the below
 
 ➡ mainColor is the Bondi Blue.\
 ➡ secondaryColor is the Ebony Clay.\
@@ -231,7 +231,7 @@ export const Colors = {
 
 ## Animations
 
-Animation.js containes all animations 
+Animation.js containes all animations.
 
 To create own animation refer to [Framer Motion](https://www.framer.com/api/motion/)
 
