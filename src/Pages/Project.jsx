@@ -60,7 +60,9 @@ const Project = ({ darkMode }) => {
 };
 
 const StyledProject = styled(Div)`
-  padding: 4.5rem 1rem 1rem 1rem;
+  height: 100%;
+  padding: 4.5rem 1rem 0rem 1rem;
+
   div {
     margin-bottom: 1rem;
   }
@@ -71,6 +73,7 @@ const StyledProject = styled(Div)`
 
 const CardContainer = styled(motion.div)`
   width: 90%;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-column-gap: 3rem;
