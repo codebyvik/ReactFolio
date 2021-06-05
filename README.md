@@ -235,7 +235,7 @@ Animation.js containes all animations \
 
 To create own animation refer to [Framer Motion](https://www.framer.com/api/motion/)
 
-## Technologies used 🛠️
+## Technologies used 🛠
 
 ➡ [React](https://reactjs.org/) \
 ➡ [Styled Component](https://styled-components.com/docs) \
