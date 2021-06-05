@@ -2,12 +2,15 @@
 
 ## Features
 
-➡ Modern UI  
+➡ Modern UI
+
 ➡ Animations
+
 ➡ Fully Responsive
+
 ➡ Dark Mode
 
-## Getting Started
+# Getting Started
 
 ### Prerequisites
 
@@ -21,7 +24,7 @@ git@2.31.1 or higher
 
 You can also use yarn
 
-## How To Use
+# How To Use
 
 From your command line, first clone the Project:
 
@@ -50,9 +53,9 @@ $ npm start
 
 Once your server has started, go to this url `http://localhost:3000/` and you will see the website running on a Development Server:
 
-## Template Instructions:
+# Template Instructions:
 
-## Change title
+### Change title
 
 1.Navigate to public/index.html
 
@@ -60,7 +63,7 @@ Once your server has started, go to this url `http://localhost:3000/` and you wi
 <title>Portfolio Project</title>
 ```
 
-## Change Icon
+### Change Icon
 
 1.Copy the icon in public/ folder
 2.change the href attribute to your icon
@@ -72,11 +75,11 @@ OR
 <link rel="icon" href="./icon.svg" type="image/x-icon" />
 ```
 
-### Home Page / Welcome section
+# Home Page / Welcome section
 
 directory :- src/Pages/Welcome.jsx
 
-# change info
+### change info
 
 Change the text and insert your name inside <span></span>
 
@@ -86,9 +89,9 @@ Change the text and insert your name inside <span></span>
 </motion.h1>
 ```
 
-### About
+# About
 
-# change picture
+### change picture
 
 1.rename your pic to Pic1.jpg and replace Pic1 in /src/assets/
 
@@ -98,7 +101,7 @@ Change the text and insert your name inside <span></span>
 import Pic1 from "../assets/Pic1.jpg";
 ```
 
-# About me info
+### About me info
 
 1. write about yourself between <motion.p></motion.p> tags.
 
@@ -112,11 +115,11 @@ import Pic1 from "../assets/Pic1.jpg";
 </motion.p>
 ```
 
-### Projects
+# Projects
 
 Project Details are stored in src/components/ProjectData.js
 
-# sample
+### sample
 
 ```js
 export const ProjectData = () => {
@@ -139,7 +142,7 @@ export const ProjectData = () => {
 };
 ```
 
-# change details
+### change details
 
 1. delete Project0,Project1,Project2 from src/assets/
 2. place your image into assets folder
@@ -155,7 +158,7 @@ export const ProjectData = () => {
 **NOTE**: dont change array into object
 paste your github link and live url
 
-# Add more projects
+### Add more projects
 
 add more objects inside ProjectData
 
@@ -176,12 +179,12 @@ add more objects inside ProjectData
     },
 ```
 
-### Contact
+# Contact
 
 This is a dummy contact form
 you can make it work using libraries like [Nodemailer](https://nodemailer.com/about/);
 
-### Footer Section
+# Footer Section
 
 - Put your social media link on each `<a>` links.
 - If you have more social-media accounts, see [Font Awesome Icons](https://fontawesome.com/v5.15/icons) to put the corresponding additional social icon
@@ -210,7 +213,7 @@ you can make it work using libraries like [Nodemailer](https://nodemailer.com/ab
 </Icons>
 ```
 
-### Step 2 - STYLES
+## STYLES
 
 Change the values of the below
 
@@ -230,7 +233,7 @@ export const Colors = {
 
 Animation.js cotaines all animations
 
-## to create own animation refer to [Framer Motion](https://www.framer.com/api/motion/)
+to create own animation refer to [Framer Motion](https://www.framer.com/api/motion/)
 
 ## Technologies used 🛠️
 
