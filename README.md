@@ -8,7 +8,7 @@
 
 ➡ Fully Responsive\ 
 
-➡ Dark Mode\ 
+➡ Dark Mode 
 
 # Getting Started
 
@@ -65,7 +65,7 @@ Once your server has started, go to this url `http://localhost:3000/` and you wi
 
 ### Change Icon
 
-➡ Copy the icon in public/ folder 
+➡ Copy the icon in public/ folder\
 ➡ change the href attribute to your icon 
 OR
 
@@ -144,19 +144,19 @@ export const ProjectData = () => {
 
 ### change details
 
-➡ delete Project0,Project1,Project2 from src/assets/ . 
-➡ place your image into assets folder 
-➡ import the image into ProjectData.js 
-➡ change DisplayImage to your image 
+➡ delete Project0,Project1,Project2 from src/assets/.\
+➡ place your image into assets folder\
+➡ import the image into ProjectData.js\
+➡ change DisplayImage to your image\
 
 ```js
  DisplayImage: YourImportedPic,
 ```
 
-➡ Change id , title , Description 
-➡ import screenshots of projects and place inside screenshots array 
-**NOTE**: dont change array into object 
-➡ paste your github link and live url 
+➡ Change id , title , Description\ 
+➡ import screenshots of projects and place inside screenshots array\
+**NOTE**: dont change array into object\
+➡ paste your github link and live url\
 
 ### Add more projects
 
@@ -181,14 +181,14 @@ Add more objects inside ProjectData
 
 # Contact
 
-This is a dummy contact form . 
+This is a dummy contact form.\ 
 you can make it work using libraries like [Nodemailer](https://nodemailer.com/about/);
 
 # Footer Section
 
-➡ Put your social media link on each `<a>` links. 
-➡ If you have more social-media accounts, see [Font Awesome Icons](https://fontawesome.com/v5.15/icons) to put the corresponding additional social icon 
-➡ You can delete or add as many `a` links your want. 
+➡ Put your social media link on each `<a>` links.\
+➡ If you have more social-media accounts, see [Font Awesome Icons](https://fontawesome.com/v5.15/icons) to put the corresponding additional social icon.\
+➡ You can delete or add as many `a` links your want.
 
 ```js
 <Icons>
@@ -217,9 +217,9 @@ you can make it work using libraries like [Nodemailer](https://nodemailer.com/ab
 
 Change the values of the below 
 
-➡ mainColor is the Bondi Blue.
-➡ secondaryColor is the Ebony Clay .
-➡ darkbg is for darkmode .
+➡ mainColor is the Bondi Blue.\
+➡ secondaryColor is the Ebony Clay.\
+➡ darkbg is for darkmode.
 
 ```js
 export const Colors = {
@@ -240,7 +240,7 @@ To create own animation refer to [Framer Motion](https://www.framer.com/api/moti
 ➡ [React](https://reactjs.org/)\
 ➡ [Styled Component](https://styled-components.com/docs)\
 ➡ [Framer Motion](https://www.framer.com/api/motion/)\
-➡ [React intersection observer](https://github.com/researchgate/react-intersection-observer)\
+➡ [React intersection observer](https://github.com/researchgate/react-intersection-observer)
 
 ## Authors
 
