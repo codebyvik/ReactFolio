@@ -81,6 +81,9 @@ const CardContainer = styled(motion.div)`
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
   margin-top: 1rem;
+  @media (max-width: 1030px) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
 `;
 
 export default Project;
