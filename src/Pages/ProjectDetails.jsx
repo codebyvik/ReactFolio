@@ -88,6 +88,7 @@ const Title = styled(motion.div)`
 
 const Details = styled(motion.div)`
   width: 80%;
+  overflow-x: hidden;
   ${({ darkMode }) =>
     darkMode
       ? `background: ${Colors.darkbg};`

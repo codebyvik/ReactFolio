@@ -10,7 +10,7 @@
 
 ➡ Dark Mode
 
-demo example -> **[click here](https://reactfolio-preview.netlify.app/)**\
+demo example -> **[click here](https://reactfolio-preview.netlify.app/)**
 
 # Getting Started
 

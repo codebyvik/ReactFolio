@@ -59,10 +59,13 @@ const Project = ({ darkMode }) => {
   );
 };
 
-const StyledProject = styled(Div)`
+const StyledProject = styled(motion.div)`
+  width: 100vw;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 4.5rem 1rem 0rem 1rem;
-
   div {
     margin-bottom: 1rem;
   }
@@ -73,9 +76,8 @@ const StyledProject = styled(Div)`
 
 const CardContainer = styled(motion.div)`
   width: 90%;
-  height: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
   margin-top: 1rem;

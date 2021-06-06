@@ -28,6 +28,7 @@ const Cards = ({ image, title, darkMode, id, setProject, Data }) => {
 };
 
 const Card = styled(motion.div)`
+  position: relative;
   height: 20rem;
   border-radius: 1rem;
   ${({ darkMode }) =>

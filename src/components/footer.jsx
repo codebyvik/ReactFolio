@@ -32,6 +32,20 @@ const Footer = () => {
           © 2021 - Template by{" "}
           <a href="https://github.com/codebyvik">codebyvik</a>
         </p>
+        <Github>
+          <button>
+            <a href="https://github.com/codebyvik/ReactFolio/fork">
+              <i class="fas fa-code-branch"></i>
+              Fork
+            </a>
+          </button>
+          <button>
+            <a href="https://github.com/codebyvik/ReactFolio">
+              <i class="far fa-star"></i>
+              Star
+            </a>
+          </button>
+        </Github>
       </FooterContainer>
     </StyledFooter>
   );
@@ -84,5 +98,18 @@ const Icons = styled(motion.div)`
     }
   }
 `;
-
+const Github = styled(motion.div)`
+  display: flex;
+  button {
+    margin: 0 0.2rem;
+    padding: 0.2rem 1.5rem;
+    cursor: pointer;
+    a {
+      color: black;
+    }
+    i {
+      margin-right: 0.2rem;
+    }
+  }
+`;
 export default Footer;

@@ -16,7 +16,7 @@ const Welcome = () => {
       animate="show"
     >
       <motion.h1 variants={fadeLeftAnim}>
-        Hey, I am <span>Tony Stark</span>, <br /> a Full stack developer
+        Hey, I am <span>Your Name</span>, <br /> a Full stack developer
       </motion.h1>
       <motion.a variants={fadeLeftAnim} href="#about" className="a-btn">
         know More
